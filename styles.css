@@ -59,7 +59,6 @@ body {
 .project-card,
 .skills-panel,
 .education-panel,
-.education-card,
 .cert-card,
 .contact-card {
   background: var(--card);
@@ -96,7 +95,7 @@ body {
 .stats strong,
 .project-card h3,
 .timeline-card h3,
-.education-card h3,
+.education-details h3,
 .cert-card h3,
 .contact-copy h2 {
   font-family: Georgia, "Times New Roman", serif;
@@ -140,8 +139,7 @@ body {
 .card-kicker,
 .timeline-meta span,
 .project-date,
-.cert-card span,
-.portrait-chip {
+.cert-card span {
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -191,7 +189,7 @@ body {
 .project-card p,
 .hero-card-body p,
 .timeline-card p,
-.education-card p,
+.education-details p,
 .contact-copy p,
 .bullet-list,
 .stats span {
@@ -368,29 +366,6 @@ body {
   filter: saturate(1.1) contrast(1.1) brightness(1.03);
 }
 
-.portrait-overlay {
-  position: absolute;
-  right: 16px;
-  bottom: 16px;
-  max-width: 230px;
-  padding: 14px 16px;
-  border-radius: 18px;
-  background: rgba(27, 23, 21, 0.6);
-  color: #fff7f2;
-  backdrop-filter: blur(10px);
-  z-index: 2;
-}
-
-.portrait-overlay p {
-  margin: 8px 0 0;
-  font-size: 0.82rem;
-  line-height: 1.45;
-}
-
-.portrait-overlay code {
-  color: #ffe0c8;
-}
-
 .hero-card-body {
   position: relative;
   z-index: 1;
@@ -507,14 +482,8 @@ main {
   padding: 24px;
 }
 
-.feature-card {
-  background:
-    linear-gradient(180deg, rgba(255, 244, 236, 0.96), rgba(250, 229, 219, 0.9)),
-    var(--card);
-}
-
 .project-card h3,
-.education-card h3,
+.education-details h3,
 .cert-card h3 {
   margin: 10px 0 10px;
   font-size: 1.34rem;
@@ -542,11 +511,7 @@ main {
   font-weight: 700;
 }
 
-.education-card {
-  background: linear-gradient(180deg, rgba(255, 251, 247, 0.96), rgba(240, 225, 209, 0.84));
-}
-
-.education-card strong {
+.education-details strong {
   display: block;
   margin-top: 10px;
   font-size: 1.08rem;
@@ -631,10 +596,6 @@ main {
 
   .stats {
     grid-template-columns: 1fr;
-  }
-
-  .portrait-overlay {
-    max-width: calc(100% - 32px);
   }
 
   .intro-panel,
