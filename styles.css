@@ -215,11 +215,31 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  gap: 10px;
   min-height: 48px;
   padding: 0 22px;
   border-radius: 999px;
   font-weight: 700;
   transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease;
+}
+
+.link-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  flex: 0 0 18px;
+}
+
+.link-icon svg {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 .button:hover,
@@ -389,6 +409,7 @@ body {
 .quick-links a {
   display: inline-flex;
   align-items: center;
+  gap: 8px;
   min-height: 40px;
   padding: 0 14px;
   border-radius: 999px;
@@ -578,6 +599,9 @@ main {
 }
 
 .contact-card a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   color: var(--text);
   font-weight: 700;
   word-break: break-word;
