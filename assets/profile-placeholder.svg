@@ -1,0 +1,26 @@
+<svg width="800" height="820" viewBox="0 0 800 820" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="820" rx="48" fill="url(#bg)"/>
+  <circle cx="535" cy="220" r="170" fill="url(#glow)"/>
+  <circle cx="395" cy="284" r="170" fill="#F6D2C3"/>
+  <path d="M265 628C265 546.262 331.262 480 413 480H420C501.738 480 568 546.262 568 628V696H265V628Z" fill="#9D2F2F"/>
+  <path d="M326 335C326 277.562 372.562 231 430 231C487.438 231 534 277.562 534 335V400C534 457.438 487.438 504 430 504C372.562 504 326 457.438 326 400V335Z" fill="#F2B694"/>
+  <path d="M316 329C329.108 252.84 393.205 196 470 196C536.663 196 592.911 238.84 610 297.94C589.857 271.553 552.273 254 523.402 254C468.077 254 417.493 282.655 373.438 316.042C355.236 329.838 337.154 343.689 316 329Z" fill="#2B1B18"/>
+  <path d="M370 417C385.447 430.924 405.932 439.396 427.597 439.396C449.262 439.396 469.748 430.924 485.194 417" stroke="#7B3E36" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="395" cy="356" r="12" fill="#2B1B18"/>
+  <circle cx="472" cy="356" r="12" fill="#2B1B18"/>
+  <rect x="90" y="79" width="162" height="50" rx="25" fill="rgba(255,255,255,0.55)"/>
+  <text x="171" y="112" text-anchor="middle" fill="#6E181B" font-size="24" font-family="Georgia, serif" letter-spacing="6">PROFILE</text>
+  <text x="96" y="750" fill="#FFF9F4" font-size="78" font-family="Georgia, serif" font-weight="700">Shubham</text>
+  <text x="96" y="798" fill="#FFE4D8" font-size="28" font-family="Trebuchet MS, sans-serif" letter-spacing="4">DATA ANALYTICS PORTFOLIO</text>
+  <defs>
+    <linearGradient id="bg" x1="99" y1="25" x2="709" y2="770" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7E1D2"/>
+      <stop offset="0.5" stop-color="#E9C5B2"/>
+      <stop offset="1" stop-color="#B3373A"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(535 220) rotate(90) scale(170)">
+      <stop stop-color="#FFF0C7"/>
+      <stop offset="1" stop-color="#FFF0C7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
