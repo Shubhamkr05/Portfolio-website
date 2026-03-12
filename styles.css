@@ -514,12 +514,12 @@ main {
 }
 
 .summary-lead {
-  max-width: 70ch;
+  max-width: none;
   color: var(--text);
   font-size: 1.08rem;
   line-height: 1.95;
   font-weight: 600;
-  padding-right: 18px;
+  padding-right: 0;
 }
 
 .summary-stack {
