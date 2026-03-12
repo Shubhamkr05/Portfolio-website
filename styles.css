@@ -333,9 +333,11 @@ body {
   height: 100%;
   object-fit: cover;
   display: block;
-  transform: scale(1.02);
+  object-position: center 18%;
+  transform: scale(1.01);
   transition: transform 280ms ease, filter 280ms ease;
-  filter: saturate(1.05) contrast(1.03);
+  filter: saturate(1.06) contrast(1.08) brightness(1.02);
+  image-rendering: auto;
 }
 
 .portrait-wrap::before {
@@ -343,8 +345,8 @@ body {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.18), transparent 24%),
-    linear-gradient(180deg, transparent 52%, rgba(20, 12, 10, 0.38) 100%);
+    linear-gradient(180deg, rgba(255, 255, 255, 0.08), transparent 20%),
+    linear-gradient(180deg, transparent 58%, rgba(20, 12, 10, 0.22) 100%);
   z-index: 1;
 }
 
@@ -362,8 +364,8 @@ body {
 }
 
 .hero-card:hover .portrait-wrap img {
-  transform: scale(1.06);
-  filter: saturate(1.08) contrast(1.06);
+  transform: scale(1.04);
+  filter: saturate(1.1) contrast(1.1) brightness(1.03);
 }
 
 .portrait-overlay {
