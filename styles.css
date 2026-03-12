@@ -433,10 +433,7 @@ main {
 
 .intro-panel {
   display: grid;
-  grid-template-columns: minmax(0, 1.08fr) minmax(320px, 0.92fr);
   gap: 18px;
-  column-gap: 34px;
-  align-items: start;
   overflow: hidden;
   background:
     linear-gradient(180deg, rgba(255, 252, 248, 0.92), rgba(245, 234, 223, 0.8)),
@@ -450,7 +447,7 @@ main {
 }
 
 .summary-lead {
-  max-width: none;
+  max-width: 70ch;
   color: var(--text);
   font-size: 1.04rem;
   line-height: 1.9;
@@ -459,8 +456,8 @@ main {
 
 .summary-stack {
   display: grid;
-  gap: 20px;
-  padding-top: 4px;
+  gap: 16px;
+  max-width: 72ch;
 }
 
 .summary-note {
@@ -598,14 +595,8 @@ main {
   .project-grid,
   .cert-grid,
   .split-section,
-  .contact-section,
-  .intro-panel {
+  .contact-section {
     grid-template-columns: 1fr;
-  }
-
-  .summary-stack {
-    gap: 14px;
-    padding-top: 0;
   }
 
   .hero-copy h1 {
