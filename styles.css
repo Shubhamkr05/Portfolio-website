@@ -410,10 +410,19 @@ main {
 
 .intro-section {
   max-width: 920px;
+  padding-bottom: 8px;
 }
 
 .section-heading {
   margin-bottom: 18px;
+}
+
+.intro-section + .section {
+  padding-top: 4px;
+}
+
+.intro-section + .section .section-heading {
+  margin-bottom: 14px;
 }
 
 .section-heading h2 {
