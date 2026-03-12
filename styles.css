@@ -433,8 +433,8 @@ main {
 
 .intro-panel {
   display: grid;
-  grid-template-columns: minmax(0, 1.12fr) minmax(0, 0.88fr);
-  gap: 14px;
+  grid-template-columns: minmax(0, 1.08fr) minmax(320px, 0.92fr);
+  gap: 18px;
   column-gap: 34px;
   align-items: start;
   overflow: hidden;
@@ -451,12 +451,16 @@ main {
 
 .summary-lead {
   max-width: none;
-  grid-column: 1;
-  grid-row: 1 / span 2;
   color: var(--text);
-  font-size: 1.02rem;
-  line-height: 1.82;
+  font-size: 1.04rem;
+  line-height: 1.9;
   font-weight: 600;
+}
+
+.summary-stack {
+  display: grid;
+  gap: 20px;
+  padding-top: 4px;
 }
 
 .summary-note {
@@ -599,8 +603,9 @@ main {
     grid-template-columns: 1fr;
   }
 
-  .summary-lead {
-    grid-row: auto;
+  .summary-stack {
+    gap: 14px;
+    padding-top: 0;
   }
 
   .hero-copy h1 {
